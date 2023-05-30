@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- for mobile responsive design -->
+        <title>Grid Layout</title>
+        <style>
+            /* Display the background and how the grid should be displayed */
+            #grid {
+                background-color: green;
+                display:grid;
+                padding: 20px;
+                /* This show how much gap between each column */
+                column-gap: 20px;
+                /* This show how much gap between each row */
+                row-gap: 20px;
+                /* Specify how many column  and how wide */
+                grid-template-columns: auto auto auto;
+            }
+
+            /* Define the CSS for the class define in body */
+            .grid-item {
+                background-color: white;
+                font-size: 30px;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="grid">
+            <div class="grid-item">Grid 1</div>
+            <div class="grid-item">Grid 2</div>
+            <div class="grid-item">Grid 3</div>
+            <div class="grid-item">Grid 4</div>
+            <div class="grid-item">Grid 5</div>
+            <div class="grid-item">Grid 6</div>
+            <div class="grid-item">Grid 7</div>
+            <div class="grid-item">Grid 8</div>
+            <div class="grid-item">Grid 9</div>
+            <div class="grid-item">Grid 10</div>
+        </div>
+    </body>
+</html>

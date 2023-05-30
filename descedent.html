@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Descedent
+        </title>
+        <style>
+            /* This mean only the li children direct under ul is using this style */
+            /* > Immediate Children */
+            /* Id there is nothing specify between ul and li then all the childen will applied with same style */
+            ul > li {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <ul>
+                <li>List3</li>
+                <li>List4</li>
+            </ul>
+            <li>List5</li>
+        </ol>
+    </body>
+</html>

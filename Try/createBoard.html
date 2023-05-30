@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Board</title>
+  <link rel="stylesheet" type="text/css" href="createBoardStyle.css">
+</head>
+<body>
+  <h1>Create a New Board</h1>
+  <form action="create_board.py" method="post">
+    <label for="board-name">Board Name:</label>
+    <input type="text" id="board-name" name="boardName" required>
+    
+    <label for="board-description">Board Description:</label>
+    <textarea id="board-description" name="boardDescription"></textarea>
+    
+    <button type="submit">Create Board</button>
+  </form>
+</body>
+</html>

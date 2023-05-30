@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- <div>: The Content Division element -->
+        <div>
+            <!-- <input>: The Input (Form Input) element -->
+            <input type="text" name="Username" placeholder="Username" id="Username">
+            <input type="password" name="password" placeholder="Password" id="User password">
+        </div>
+
+        <div>
+            What is your favorite color?
+            <!-- Make sure to put text at the end to display the word -->
+            <input type="radio" name="color" value="Red" id="Red color"> Red
+            <input type="radio" name="color" value="Blue" id="Blue color"> Blue
+        </div>
+        
+        <div>
+            What your Country of Origin? 
+            <input name="country" id="choose country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Malaysia">
+                <option value="New Zealand">
+            </datalist>
+        </div>
+
+    </form>
+</body>
+
+</html>
